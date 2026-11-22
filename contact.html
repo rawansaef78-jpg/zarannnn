@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تواصل | مركز زارانا للملابس الرجاليه</title>
+  <meta name="description" content="تواصل مع مركز زارانا للملابس الرجاليه." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/logo.jpg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.jpg" alt="شعار مركز زارانا" />
+        <span>زارانا</span>
+      </a>
+      <button class="nav-toggle" aria-label="القائمة">☰</button>
+      <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="services.html">الخدمات</a>
+        <a href="about.html">عنّا</a>
+        <a href="contact.html">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>تواصل معنا</h1>
+      <p>نحن هنا لخدمتك</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="ci-icon">📞</div>
+            <div>
+              <h4>الهاتف</h4>
+              <p>0535692256</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">📍</div>
+            <div>
+              <h4>الموقع</h4>
+              <p>السعودية</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">⏰</div>
+            <div>
+              <h4>ساعات العمل</h4>
+              <p>السبت - الخميس: 9ص - 10م</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">💬</div>
+            <div>
+              <h4>واتساب</h4>
+              <p><a href="#" data-wa="مرحباً، أود التواصل">راسلنا الآن</a></p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <label for="name">الاسم</label>
+            <input id="name" name="name" type="text" required placeholder="اسمك" />
+          </div>
+          <div class="form-row">
+            <label for="phone">الجوال</label>
+            <input id="phone" name="phone" type="tel" required placeholder="05xxxxxxxx" />
+          </div>
+          <div class="form-row">
+            <label for="service">الخدمة</label>
+            <select id="service" name="service">
+              <option>بدلات</option>
+              <option>ثياب</option>
+              <option>قمصان</option>
+              <option>عطور</option>
+              <option>إكسسوارات</option>
+              <option>أحذية</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" placeholder="اكتب رسالتك"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" style="width:100%;justify-content:center;">إرسال عبر واتساب</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>زارانا</h4>
+        <p>مركز زارانا للملابس الرجاليه — أناقة، جودة، وخدمة.</p>
+      </div>
+      <div>
+        <h4>روابط</h4>
+        <p><a href="index.html">الرئيسية</a></p>
+        <p><a href="services.html">الخدمات</a></p>
+        <p><a href="about.html">عنّا</a></p>
+        <p><a href="contact.html">تواصل</a></p>
+      </div>
+      <div>
+        <h4>تواصل</h4>
+        <p>📞 0535692256</p>
+        <p>📍 السعودية</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © 2026 مركز زارانا للملابس الرجاليه. جميع الحقوق محفوظة.
+    </div>
+  </footer>
+
+  <a class="wa-float" aria-label="واتساب">💬</a>
+  <script src="script.js"></script>
+</body>
+</html>
